@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Geno_Client_BlazorWebAssembly.props" />
+</Project>

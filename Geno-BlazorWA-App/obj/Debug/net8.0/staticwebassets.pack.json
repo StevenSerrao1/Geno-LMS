@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Geno_Client_BlazorWA.styles.css",
+      "PackagePath": "staticwebassets\\Geno_Client_BlazorWA.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Geno_Client_BlazorWA.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Geno_Client_BlazorWA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Geno_Client_BlazorWA.props",
+      "PackagePath": "build\\Geno_Client_BlazorWA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Geno_Client_BlazorWA.props",
+      "PackagePath": "buildMultiTargeting\\Geno_Client_BlazorWA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Geno_Client_BlazorWA.props",
+      "PackagePath": "buildTransitive\\Geno_Client_BlazorWA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

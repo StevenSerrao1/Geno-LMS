@@ -1,0 +1,12 @@
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\bin\Debug\net8.0\Geno_Shared_Assets.deps.json
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\bin\Debug\net8.0\Geno_Shared_Assets.dll
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\bin\Debug\net8.0\Geno_Shared_Assets.pdb
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.AssemblyInfoInputs.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.AssemblyInfo.cs
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.dll
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\refint\Geno_Shared_Assets.dll
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.pdb
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\ref\Geno_Shared_Assets.dll

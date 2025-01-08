@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Geno_API.props" />
+</Project>

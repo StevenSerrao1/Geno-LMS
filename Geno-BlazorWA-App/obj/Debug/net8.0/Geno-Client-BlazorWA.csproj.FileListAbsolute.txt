@@ -1,0 +1,6 @@
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-BlazorWA-App\obj\Debug\net8.0\Geno-Client-BlazorWA.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-BlazorWA-App\obj\Debug\net8.0\Geno-Client-BlazorWA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-BlazorWA-App\obj\Debug\net8.0\Geno-Client-BlazorWA.AssemblyInfoInputs.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-BlazorWA-App\obj\Debug\net8.0\Geno-Client-BlazorWA.AssemblyInfo.cs
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-BlazorWA-App\obj\Debug\net8.0\Geno-Client-BlazorWA.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-BlazorWA-App\obj\Debug\net8.0\Geno-Client-BlazorWA.MvcApplicationPartsAssemblyInfo.cache
