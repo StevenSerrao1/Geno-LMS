@@ -11,9 +11,9 @@ namespace Geno_API.Entities
         public DateTime EnrolmentDate { get; set; }
 
         [Required]
-        public int StudentId { get; set; } // Foreign key to Student
+        public int UserId { get; set; } // Foreign key to Student
 
-        [ForeignKey(nameof(StudentId))] // Many enrolments can belong to one student
+        [ForeignKey(nameof(UserId))] // Many enrolments can belong to one student
         public Student? Student { get; set; } // Navigation property for Student
 
         [Required]
