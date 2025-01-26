@@ -10,9 +10,9 @@
         public string? DenormalizedCourseName { get; set; } // Denormalized for vinniger querying
 
         [Required]
-        public int UserId { get; set; } // Foreign key to Student
+        public int StudentId { get; set; } // Foreign key to Student
 
-        [ForeignKey(nameof(UserId))] // Many finalGrades can belong to one student (one for each course)
+        [ForeignKey(nameof(StudentId))] // Many finalGrades can belong to one student (one for each course)
         public Student? Student { get; set; } // Navigation property for Student
 
         [Required]

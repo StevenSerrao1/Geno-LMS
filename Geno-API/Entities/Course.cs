@@ -13,9 +13,9 @@
         public DateTime CreatedDate { get; set; } // DATE that course is created
 
         [Required]
-        public int UserId { get; set; } // Foreign Key to Admin (allowing Admin access to a course)
+        public int AdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a course)
 
-        [ForeignKey(nameof(UserId))] // Many courses can be accessed/modified by the Admin
+        [ForeignKey(nameof(AdminId))] // Many courses can be accessed/modified by the Admin
         public Admin? Admin { get; set; } // Navigation Property to Admin
 
         // One course can have many enrolments (one per student)

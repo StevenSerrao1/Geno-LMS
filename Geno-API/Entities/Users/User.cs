@@ -5,7 +5,7 @@ namespace Geno_API.Entities.Users
     public class User // SUPERCLASS
     {
         [Key]
-        public int UserId { get; set; } // Unique UserId (to be inherited by all subtypes)
+        public int UserId { get; set; } // Unique StudentId (to be inherited by all subtypes)
 
         [Required]
         [StringLength(150)]

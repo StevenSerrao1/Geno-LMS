@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Geno_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4ff351609f3e311f49aa81aa031d4df3fb1c33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c08558481bc79677c483d81c15ff95fee3ee2916")]
 [assembly: System.Reflection.AssemblyProductAttribute("Geno_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Geno_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

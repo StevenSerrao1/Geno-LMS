@@ -22,12 +22,9 @@
 
         [ForeignKey(nameof(LessonId))] // One quiz belongs to one lesson (many quizzes belong to many lessons)
         public Lesson? Lesson { get; set; } // Navigation Property for Lesson
-
-        [Required]
-        public int GradeId { get; set; } // Foreign Key for Grade
-
-        [ForeignKey(nameof(GradeId))] // One quiz belongs to one lesson (many quizzes belong to many lessons)
-        public Grade? Grade { get; set; } // Navigation Property for Grade
+        
+        // One quiz can have many grades (one per student)
+        public ICollection<Grade> Grades { get; set; }
 
         // One quiz can have many questions
         public ICollection<Question> Questions { get; set; } // Navigation property to questions
@@ -35,6 +32,7 @@
         public Quiz()
         {
             this.Questions = new List<Question>();
+            this.Grades = new List<Grade>();
             this.QuizName = string.Empty;
             this.MaxScore = 100;
             this.PassingScore = 50;

@@ -8,9 +8,9 @@
         public double GradeScore { get; set; } // Actual score for the grade (will be combined to make finalgrade)
 
         [Required]
-        public int UserId { get; set; } // Foreign key to Student
+        public int StudentId { get; set; } // Foreign key to Student
 
-        [ForeignKey(nameof(UserId))] // Many grades can belong to one student (one per quiz)
+        [ForeignKey(nameof(StudentId))] // Many grades can belong to one student (one per quiz)
         public Student? Student { get; set; } // Navigation property for Student
 
         [Required]

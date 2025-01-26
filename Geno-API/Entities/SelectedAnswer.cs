@@ -17,9 +17,9 @@
         public Question Question { get; set; } = new Question(); // Navigation property to the related Question
 
         [Required]
-        public int UserId { get; set; } // Foreign Key to Student
+        public int StudentId { get; set; } // Foreign Key to Student
 
-        [ForeignKey(nameof(UserId))] // One student can have many selected answers (one per question, per quiz)
+        [ForeignKey(nameof(StudentId))] // One student can have many selected answers (one per question, per quiz)
         public Student Student { get; set; } = new Student(); // Navigation property to the related Student
     }
 }
