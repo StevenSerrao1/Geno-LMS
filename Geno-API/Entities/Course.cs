@@ -10,13 +10,22 @@
 
         public string? Description { get; set; } // DESCRIPTION of course (is not required)
 
-        public DateTime CreatedDate { get; set; } // DATE that course is created
+        public DateTime CreatedDate { get; set; } // DATE that course is created by Admin
+
+        public DateTime? UpdatedDate { get; set; } // DATE that course is updated by Admin
 
         [Required]
-        public int AdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a course)
+        public int CreatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a course)
 
-        [ForeignKey(nameof(AdminId))] // Many courses can be accessed/modified by the Admin
-        public Admin? Admin { get; set; } // Navigation Property to Admin
+        [ForeignKey(nameof(CreatedByAdminId))] // Many courses can be CREATED by the Admin
+        public Admin? CreatedByAdmin { get; set; } // Navigation Property to Admin
+
+        // ABOVE is used to create the Course / BELOW is used to update the course
+
+        public int UpdatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a course)
+
+        [ForeignKey(nameof(UpdatedByAdminId))] // Many courses can be ACCESSED/MODIFIED by the Admin
+        public Admin? UpdatedByAdmin { get; set; } // Navigation Property to Admin
 
         // One course can have many enrolments (one per student)
         public ICollection<Enrolment> Enrolments { get; set; } // Navigation Property to Enrolments
