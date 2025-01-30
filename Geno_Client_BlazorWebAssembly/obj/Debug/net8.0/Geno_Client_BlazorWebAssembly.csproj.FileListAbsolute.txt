@@ -1,3 +1,4 @@
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\z6cnae22sx-66ysrn2owv.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\bin\Debug\net8.0\wwwroot\_framework\BlazorInputFile.wasm
@@ -633,6 +634,7 @@ C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_Blazor
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\Geno_Client_BlazorWebAssembly.AssemblyInfo.cs
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\Geno_Client_BlazorWebAssembly.csproj.CoreCompileInputs.cache
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\Geno_Client_BlazorWebAssembly.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\Geno_Client_BlazorWebAssembly.sourcelink.json
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\webcil\BlazorInputFile.wasm
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
@@ -952,7 +954,6 @@ C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_Blazor
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\71tedb05zz-1jyxr7kwjo.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\q7gh3lvi2b-4fwiisng6i.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\7rm7z9uuld-dgkgnxso4m.gz
-C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\z6cnae22sx-66ysrn2owv.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\5q62bsnxeh-kgscmlv3if.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\wbdl5d5j8z-8hlod3by22.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\l1azt4v7zp-u3evpglqtv.gz
@@ -1043,9 +1044,9 @@ C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_Blazor
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\05uvd3wzr3-tptq2av103.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\xuvd0y1qrz-lfu7j35m59.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\wvczofo12x-oyz0vx2fzb.gz
-C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\nxtr7gm792-p87up4g2jq.gz
-C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\r4k9p4ywgt-fhfv6oo4xo.gz
-C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\jl58fgnbdg-md1tgokpac.gz
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\nxtr7gm792-3e18i188lp.gz
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\r4k9p4ywgt-eiv20wk8pz.gz
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\compressed\jl58fgnbdg-s8yg8mgre0.gz
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno_Client_BlazorWebAssembly\obj\Debug\net8.0\staticwebassets.build.endpoints.json

@@ -8,8 +8,10 @@
         }
 
         // Create properties below (will be initialized by EFCore)
+        #region Properties
         public DbSet<User>? Users { get; set; }
         public DbSet<Student>? Students { get; set; }
+        public DbSet<Admin>? Admins { get; set; }
         public DbSet<Course>? Courses { get; set; }
         public DbSet<Enrolment>? Enrolments { get; set; }
         public DbSet<FinalGrade>? FinalGrades { get; set; }
@@ -19,15 +21,15 @@
         public DbSet<QuestionOption>? QuestionOptions { get; set; }
         public DbSet<Quiz>? Quizzes { get; set; }
         public DbSet<SelectedAnswer>? SelectedAnswers { get; set; }
+        #endregion
 
         // OnModelCreating method / Used to map and initialize relationships
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
             #region Entity Mapping Region*
             modelBuilder.Entity<User>().ToTable("Users"); // Map Users to a new table 
             modelBuilder.Entity<Student>().ToTable("Students"); // Map Students to a new table
+            modelBuilder.Entity<Admin>().ToTable("Admins"); // Map Admins to a new table
             modelBuilder.Entity<Course>().ToTable("Courses"); // Map Courses to a new table
             modelBuilder.Entity<Enrolment>().ToTable("Enrolments"); // Map Enrolments to a new table
             modelBuilder.Entity<FinalGrade>().ToTable("FinalGrades"); // Map FinalGrades to a new table
@@ -50,55 +52,19 @@
 
             modelBuilder.Entity<Admin>(entity =>
             {
-                entity.HasKey(a => a.UserId); // Unique Id
-
-                // Admin -> User
-                entity.HasOne<User>() // Establish inheritance relationship
-                      .WithOne()
-                      .HasForeignKey<Admin>(a => a.UserId) // FK to User.Id
-                      .OnDelete(DeleteBehavior.Cascade); // Cascade delete
-
-                // Admin -> Student
-                entity.HasMany(a => a.Students) // Many Students belong to One Admin
-                      .WithOne(s => s.Admin) // One Admin oversees many Students
-                      .HasForeignKey(s => s.AdminId) // FK to AdminId
-                      .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Admin -> CREATED Course
-                entity.HasMany(a => a.CreatedCourses) // Many CreatedCourses belong to One Admin
-                      .WithOne(cc => cc.CreatedByAdmin) // One Admin oversees many CreatedCourses
-                      .HasForeignKey(cc => cc.CreatedByAdminId) // FK to CreatedByAdminId
-                      .OnDelete(DeleteBehavior.Restrict); // RESTRICT DELETE
-
-                // Admin -> UPDATED Course
-                entity.HasMany(a => a.UpdatedCourses) // Many UpdatedCourses belong to One Admin
-                      .WithOne(uc => uc.UpdatedByAdmin) // One Admin oversees many UpdatedCourses
-                      .HasForeignKey(uc => uc.UpdatedByAdminId) // FK to UpdatedByAdminId
-                      .OnDelete(DeleteBehavior.Restrict); // RESTRICT DELETE
-
-                // Admin -> CREATED Lesson
-                entity.HasMany(a => a.CreatedLessons) // Many CreatedLessons belong to One Admin
-                      .WithOne(cl => cl.CreatedByAdmin) // One Admin oversees many CreatedLessons
-                      .HasForeignKey(cl => cl.CreatedByAdminId) // FK to CreatedByAdminId
-                      .OnDelete(DeleteBehavior.Restrict); // RESTRICT DELETE
-
-                // Admin -> UPDATED Lesson
-                entity.HasMany(a => a.UpdatedLessons) // Many UpdatedLessons belong to One Admin
-                      .WithOne(ul => ul.UpdatedByAdmin) // One Admin oversees many UpdatedLessons
-                      .HasForeignKey(ul => ul.UpdatedByAdminId) // FK to UpdatedByAdminId
-                      .OnDelete(DeleteBehavior.Restrict); // RESTRICT DELETE
+                // ID IS DERIVED FROM USER SUPERCLASS
 
                 // Admin -> CREATED Quiz
                 entity.HasMany(a => a.CreatedQuizzes) // Many CreatedQuizzes belong to One Admin
                       .WithOne(quiz => quiz.CreatedByAdmin) // One Admin oversees many CreatedQuizzes
                       .HasForeignKey(quiz => quiz.CreatedByAdminId) // FK to CreatedByAdminId
-                      .OnDelete(DeleteBehavior.Restrict); // RESTRICT DELETE
+                      .OnDelete(DeleteBehavior.SetNull); // RESTRICT DELETE
 
                 // Admin -> UPDATED Quiz
                 entity.HasMany(a => a.UpdatedLessons) // Many UpdatedQuizzes belong to One Admin
                       .WithOne(quiz => quiz.UpdatedByAdmin) // One Admin oversees many UpdatedQuizzes
                       .HasForeignKey(quiz => quiz.UpdatedByAdminId) // FK to UpdatedByAdminId
-                      .OnDelete(DeleteBehavior.Restrict); // RESTRICT DELETE
+                      .OnDelete(DeleteBehavior.SetNull); // RESTRICT DELETE
             });
 
             #endregion
@@ -107,49 +73,20 @@
 
             modelBuilder.Entity<Student>(entity =>
             {
-                entity.HasKey(s => s.UserId);
-
-                // Student -> User
-                entity.HasOne<User>() // Establish inheritance relationship
-                      .WithOne()
-                      .HasForeignKey<Student>(s => s.UserId) // FK to User.Id
-                      .OnDelete(DeleteBehavior.Cascade); // Cascade delete
+                // ID IS DERIVED FROM USER SUPER CLASS
 
                 // Student -> Admin
                 entity.HasOne(s => s.Admin) // Many Students belong to one Admin
                       .WithMany(a => a.Students) // One Admin oversees many Students
                       .HasForeignKey(s => s.AdminId) // FK to AdminId
-                      .OnDelete(DeleteBehavior.Cascade); // DELETE
+                      .OnDelete(DeleteBehavior.NoAction); // DELETE
 
-                // Student -> Enrolments
-                entity.HasMany(s => s.Enrolments) // One Student has many Enrolments (one per course)
-                      .WithOne(e => e.Student) // Many Enrolments belong to one Student 
-                      .HasForeignKey(e => e.StudentId) // FK to StudentId
-                      .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Student -> FinalGrades
-                entity.HasMany(s => s.FinalGrades) // One Student has many Final Grades (one per course)
-                      .WithOne(fg => fg.Student) // Many Final Grades belong to one Student 
-                      .HasForeignKey(fg => fg.StudentId) // FK to StudentId
-                      .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Student -> Grades
-                entity.HasMany(s => s.Grades) // One Student has many Grades (one per quiz/lesson)
-                      .WithOne(g => g.Student) // Many Grades belong to one Student 
-                      .HasForeignKey(g => g.StudentId) // FK to StudentId
-                      .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Student -> SelectedAnswers
-                entity.HasMany(s => s.SelectedAnswers) // One Student has many Selected Answer (one per question)
-                      .WithOne(sa => sa.Student) // Many SA's belong to one Student 
-                      .HasForeignKey(sa => sa.StudentId) // FK to StudentId
-                      .OnDelete(DeleteBehavior.Cascade); // DELETE 
-
-                // Student Indices
-                entity.HasIndex(s => s.Enrolments);
-                entity.HasIndex(s => s.FinalGrades);
-                entity.HasIndex(s => s.FirstName);
-                entity.HasIndex(s => s.Email);
+                // Enrolment -> Student
+                entity
+                    .HasMany(s => s.Enrolments)
+                    .WithOne(e => e.Student)
+                    .HasForeignKey(e => e.StudentId)
+                    .OnDelete(DeleteBehavior.Restrict);
 
             });
 
@@ -162,14 +99,14 @@
                 .HasOne(cc => cc.CreatedByAdmin) // One Admin oversees many CreatedCourses
                 .WithMany(a => a.CreatedCourses) // Many CreatedCourses belong to One Admin
                 .HasForeignKey(cc => cc.CreatedByAdminId) // FK to CreatedByAdminId
-                .OnDelete(DeleteBehavior.Cascade); // DELETE
+                .OnDelete(DeleteBehavior.NoAction); // DELETE
 
             // UPDATED Course -> Admin
             modelBuilder.Entity<Course>()
                 .HasOne(uc => uc.UpdatedByAdmin) // One Admin oversees many UpdatedCourses
                 .WithMany(a => a.UpdatedCourses) // Many UpdatedCourses belong to One Admin
                 .HasForeignKey(uc => uc.UpdatedByAdminId) // FK to UpdatedByAdminId
-                .OnDelete(DeleteBehavior.Cascade); // DELETE
+                .OnDelete(DeleteBehavior.NoAction); // DELETE
 
             // Course -> Enrolments
             modelBuilder.Entity<Course>()
@@ -205,37 +142,28 @@
                 // Define composite key for StudentId and CourseId (unique per user-course pair)
                 entity.HasIndex(e => new { e.StudentId, e.CourseId }).IsUnique();
 
-                // Define foreign key relationships / Relationship: Enrolment -> Student
-                entity.HasOne(e => e.Student) // One Student has many enrolments
-                    .WithMany(s => s.Enrolments) // Many Enrolments can belong to One Student
-                    .HasForeignKey(e => e.StudentId) // FK to StudentId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
+                
 
-                // Relationship: Enrolment -> Course
-                entity.HasOne(e => e.Course) // One Course can have many Enrolments
-                    .WithMany(c => c.Enrolments) // Many Enrolments can belong to One Student
-                    .HasForeignKey(e => e.CourseId) // FK to CourseId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
             });
 
             #endregion
 
             #region FinalGrade Relationships
 
-            modelBuilder.Entity<FinalGrade>().HasKey(fg => fg.FinalGradeId);
-
-            // FinalGrade -> Student
-            modelBuilder.Entity<FinalGrade>()
-                .HasOne(fg => fg.Student) // One FinalGrade per student
-                .WithMany(s => s.FinalGrades) // One Student has many FinalGrades
-                .HasForeignKey(fg => fg.StudentId) // FK to StudentId
-                .OnDelete(DeleteBehavior.Cascade); // Delete related data
+            modelBuilder.Entity<FinalGrade>().HasKey(fg => fg.FinalGradeId);     
 
             // FinalGrade -> Course
             modelBuilder.Entity<FinalGrade>()
                 .HasOne(fg => fg.Course) // One FinalGrade per course
                 .WithMany(c => c.FinalGrades) // One Course can have many FinalGrades (one per student)
                 .HasForeignKey(fg => fg.CourseId) // FK to CourseId
+                .OnDelete(DeleteBehavior.Restrict); // Delete related data
+
+            // FinalGrade -> Student
+            modelBuilder.Entity<FinalGrade>()
+                .HasOne(fg => fg.Student) // One FinalGrade per course
+                .WithMany(s => s.FinalGrades) // One Course can have many FinalGrades (one per student)
+                .HasForeignKey(fg => fg.StudentId) // FK to CourseId
                 .OnDelete(DeleteBehavior.Cascade); // Delete related data
 
             // Index FinalScore for faster retrieval
@@ -263,7 +191,7 @@
                 .HasOne(grade => grade.Quiz) // One Grade can only come from one Quiz
                 .WithMany(q => q.Grades) // One Quiz can have many Grades (one per student)
                 .HasForeignKey(grade => grade.QuizId) // FK to QuizId
-                .OnDelete(DeleteBehavior.Cascade); // DELETE
+                .OnDelete(DeleteBehavior.SetNull); // DELETE
                 
                 // Indices
                 entity.HasIndex(g => g.GradeScore);
@@ -283,14 +211,14 @@
                     .HasOne(cl => cl.CreatedByAdmin) // One Admin oversees many CreatedLessons
                     .WithMany(a => a.CreatedLessons) // Many CreatedLessons belong to One Admin
                     .HasForeignKey(cl => cl.CreatedByAdminId) // FK to CreatedByAdminId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
+                    .OnDelete(DeleteBehavior.NoAction); // DELETE
 
                 // UPDATED Lesson -> Admin
                 modelBuilder.Entity<Lesson>()
                     .HasOne(ul => ul.UpdatedByAdmin) // One Admin oversees many UpdatedLessons
                     .WithMany(a => a.UpdatedLessons) // Many UpdatedLessons belong to One Admin
                     .HasForeignKey(ul => ul.UpdatedByAdminId) // FK to UpdatedByAdminId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
+                    .OnDelete(DeleteBehavior.NoAction); // DELETE
 
                 // Lesson -> Course
                 entity
@@ -303,7 +231,7 @@
                 entity
                 .HasOne(l => l.Quiz) // Every Lesson has one Quiz
                 .WithOne(q => q.Lesson) // Every Quiz is connected to only one Lesson
-                .HasForeignKey<Quiz>(q => q.LessonId) // FK to LessonId
+                .HasForeignKey<Quiz>(l => l.QuizId) // FK to LessonId
                 .OnDelete(DeleteBehavior.Cascade); // DELETE
 
                 // Indices
@@ -325,13 +253,6 @@
                     .HasOne(question => question.Quiz) // Each Question is connected to one Quiz
                     .WithMany(quiz => quiz.Questions) // Each Quiz can have multiple Questions
                     .HasForeignKey(question => question.QuizId) // FK to QuizId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Question -> QuestionOption (Being the four available options; 'A', 'B', 'C', 'D')
-                entity
-                    .HasMany(q => q.QuestionOptions) // Each Question can have 4 QuestionOptions (A, B, C, D)
-                    .WithOne(qo => qo.Question) // Each QuestionOption is based on only one Question
-                    .HasForeignKey(qo => qo.QuestionId) // FK to QuestionId
                     .OnDelete(DeleteBehavior.Cascade); // DELETE
 
                 // Index properties for querying
@@ -365,39 +286,11 @@
                 // Unique Id
                 entity.HasKey(q => q.QuizId);
 
-                // CREATED Quiz -> Admin
-                modelBuilder.Entity<Quiz>()
-                    .HasOne(cq => cq.CreatedByAdmin) // One Admin oversees many CreatedQuizzes
-                    .WithMany(a => a.CreatedQuizzes) // Many CreatedQuizzes belong to One Admin
-                    .HasForeignKey(cq => cq.CreatedByAdminId) // FK to CreatedByAdminId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // UPDATED Quiz -> Admin
-                modelBuilder.Entity<Quiz>()
-                    .HasOne(uq => uq.UpdatedByAdmin) // One Admin oversees many UpdatedQuizzes
-                    .WithMany(a => a.UpdatedQuizzes) // Many UpdatedQuizzes belong to One Admin
-                    .HasForeignKey(uq => uq.UpdatedByAdminId) // FK to UpdatedByAdminId
-                    .OnDelete(DeleteBehavior.Cascade); // DELETE
-
                 // Quiz -> Lesson
                 entity
                 .HasOne(q => q.Lesson) // Each Quiz is connected to one Lesson
                 .WithOne(l => l.Quiz) // Each Lesson has only one Quiz
                 .HasForeignKey<Lesson>(l => l.QuizId) // FK to QuizId
-                .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Quiz -> Grade
-                entity
-                .HasMany(q => q.Grades) // Each Quiz can have many grades (one per student)
-                .WithOne(g => g.Quiz) // Each Grade comes from one Quiz only
-                .HasForeignKey(g => g.QuizId) // FK to QuizId
-                .OnDelete(DeleteBehavior.Cascade); // DELETE
-
-                // Quiz -> Question
-                entity
-                .HasMany(quiz => quiz.Questions) // Each Quiz has many questions
-                .WithOne(question => question.Quiz) // Each Question is connected to only one Quiz
-                .HasForeignKey(question => question.QuizId) // FK to QuizId
                 .OnDelete(DeleteBehavior.Cascade); // DELETE
 
                 // Index certain props for faster querying
@@ -429,10 +322,118 @@
                     .WithMany(stu => stu.SelectedAnswers) // Many Students can have a selectedanswer (one per question)
                     .HasForeignKey(sa => sa.StudentId) // FK to StudentId
                     .OnDelete(DeleteBehavior.Cascade); // DELETE
-
             });
 
             #endregion
+
+            #region Seed Data
+
+            // Pre-populate Admin, Student, Enrolment and Course
+
+            // Admin SeedData
+            modelBuilder.Entity<Admin>().HasData(new Admin()
+            {
+                UserId = 1,
+                Role = "Admin",
+                FirstName = "Steven",
+                LastName = "Serrao",
+                Email = "stevenserraowork@gmail.com",
+                DateOfBirth = new DateTime(2000, 02, 23),
+                DateJoined = DateTime.UtcNow,
+            });
+
+            // Student SeedData
+            modelBuilder.Entity<Student>().HasData(new Student()
+            {
+                UserId = 2,
+                Role = "Student",
+                FirstName = "Spencer",
+                LastName = "Reid",
+                Email = "zugzwang@gmail.com",
+                DateOfBirth = new DateTime(1980, 03, 09),
+                DateJoined = DateTime.UtcNow,
+                AdminId = 1
+            },
+            new Student()
+            {
+                UserId = 3,
+                Role = "Student",
+                FirstName = "Homer",
+                LastName = "Simpson",
+                Email = "doh@hotmail.com",
+                DateOfBirth = new DateTime(1956, 05, 12),
+                DateJoined = DateTime.UtcNow,
+                AdminId = 1
+            });
+
+            // Course SeedData
+            modelBuilder.Entity<Course>().HasData(new Course()
+            {
+                CourseId = 1,
+                Title = "Introduction to C#",
+                Description = "A short course dedicated to helping you master the basics of the latest version of C#.",
+                CreatedDate = DateTime.UtcNow,
+                CreatedByAdminId = 1
+            },
+            new Course()
+            {
+                CourseId = 2,
+                Title = "Advanced Doughnut Making",
+                Description = "Get your baking on with this intermediate course on creating the perfect DOH!Nut.",
+                CreatedDate = DateTime.UtcNow,
+                CreatedByAdminId = 1
+            });
+
+            // Enrolment SeedData
+            modelBuilder.Entity<Enrolment>().HasData(new Enrolment()
+            {
+                EnrolmentId = 1,
+                EnrolmentDate = DateTime.UtcNow,
+                StudentId = 2,
+                CourseId = 1
+            },
+            new Enrolment()
+            {
+                EnrolmentId = 2,
+                EnrolmentDate = DateTime.UtcNow,
+                StudentId = 2,
+                CourseId = 2
+            },
+            new Enrolment()
+            {
+                EnrolmentId = 3,
+                EnrolmentDate = DateTime.UtcNow,
+                StudentId = 3,
+                CourseId = 2
+            },
+            new Enrolment()
+            {
+                EnrolmentId = 4,
+                EnrolmentDate = DateTime.UtcNow,
+                StudentId = 3,
+                CourseId = 1
+            });
+
+            //FinalGrades SeedData
+
+            modelBuilder.Entity<FinalGrade>().HasData(new FinalGrade()
+            {
+                FinalGradeId = 1,
+                StudentId = 3,
+                CourseId = 2,
+                FinalScore = 55
+            },
+            new FinalGrade()
+            {
+                FinalGradeId = 2,
+                StudentId = 2,
+                CourseId = 1,
+                FinalScore = 100
+            });
+
+            #endregion
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

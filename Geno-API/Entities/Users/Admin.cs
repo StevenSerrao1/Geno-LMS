@@ -3,7 +3,6 @@
     public class Admin : User
     {
         #region Properties
-
         public DateTime DateJoined { get; set; }
 
         // Admin -> Course (CREATE and UPDATE)

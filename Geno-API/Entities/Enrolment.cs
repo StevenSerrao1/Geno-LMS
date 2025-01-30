@@ -12,14 +12,12 @@ namespace Geno_API.Entities
 
         [Required]
         public int StudentId { get; set; } // Foreign key to Student
-
-        [ForeignKey(nameof(StudentId))] // Many enrolments can belong to one student
+        // Many enrolments can belong to one student
         public Student? Student { get; set; } // Navigation property for Student
 
         [Required]
         public int CourseId { get; set; } // Foreign key to Course        
-
-        [ForeignKey(nameof(CourseId))] // Many enrolments can belong to one course
+        // Many enrolments can belong to one course
         public Course? Course { get; set; } // Navigation property for Course
 
         public Enrolment()

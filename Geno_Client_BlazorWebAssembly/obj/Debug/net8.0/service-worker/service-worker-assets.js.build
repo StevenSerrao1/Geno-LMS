@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "88IIpIv/",
+  "version": "JyoHMinW",
   "assets": [
     {
       "hash": "sha256-f3DVnAJFtDfjNz72BQWX1AQRJ8zjCIkaHYGtFqFtVDQ=",
@@ -22,11 +22,11 @@ self.assetsManifest = {
       "url": "_framework/BlazorInputFile.wasm"
     },
     {
-      "hash": "sha256-3fmM5KL97F6GPkzCiQhxtqbYneP1OmJZyPKqehdkT1Q=",
+      "hash": "sha256-BsyK0gr5nDM9oeWLe8c+xNs21i5EjqwHUReUqVbWwDQ=",
       "url": "_framework/Geno_Client_BlazorWebAssembly.pdb"
     },
     {
-      "hash": "sha256-17Zm8kkak5iIOrhExn3KKpEOZ4hFKkxY9tT14drAfU8=",
+      "hash": "sha256-Cy9h3J4JnaQlvxRe4QWA47tpD2uj+oqIjvsLlw6G7rg=",
       "url": "_framework/Geno_Client_BlazorWebAssembly.wasm"
     },
     {
@@ -798,7 +798,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-xmNWzFkB9tbk5uXLGdn8FXxqm+TTjc1ZhI0QbkYSbXU=",
+      "hash": "sha256-XPHiUPJY1AkLPKzKCYHG1l98QlhQSFEQE7JpzGZWlhc=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -858,7 +858,7 @@ self.assetsManifest = {
       "url": "css/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "url": "css/bootstrap/bootstrap.min.css"
     },
     {

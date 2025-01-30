@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Geno_Client_BlazorWebAssembly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51300deb02e277ca608e70485ec6b81aad10ceed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d2e12decd38353f2bd61b69a54a6c21e372a381")]
 [assembly: System.Reflection.AssemblyProductAttribute("Geno_Client_BlazorWebAssembly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Geno_Client_BlazorWebAssembly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

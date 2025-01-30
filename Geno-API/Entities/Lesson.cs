@@ -2,6 +2,8 @@
 {
     public class Lesson
     {
+        #region Properties
+
         [Key]
         public int LessonId { get; set; } // Unique Identifier for each Lesson
 
@@ -21,18 +23,18 @@
         [ForeignKey(nameof(QuizId))] // One quiz can belong to one lesson (one quiz per lesson was the decided amount)
         public Quiz? Quiz { get; set; } // Navigation property for Quiz
 
-        [Required]
-        public int CreatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a lesson)
+        public int? CreatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a lesson)
 
         [ForeignKey(nameof(CreatedByAdminId))] // Many courses can be CREATED by the Admin
         public Admin? CreatedByAdmin { get; set; } // Navigation Property to Admin
 
         // ABOVE is used to create the Lesson / BELOW is used to update the Lesson
-
-        public int UpdatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a lesson)
+        public int? UpdatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a lesson)
 
         [ForeignKey(nameof(UpdatedByAdminId))] // Many courses can be ACCESSED/MODIFIED by the Admin
         public Admin? UpdatedByAdmin { get; set; } // Navigation Property to Admin
+
+        #endregion
 
         public Lesson() // Constructor to initialize properties upon creation of object
         {

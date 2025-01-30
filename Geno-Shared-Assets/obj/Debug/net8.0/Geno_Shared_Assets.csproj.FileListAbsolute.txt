@@ -6,6 +6,7 @@ C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.AssemblyInfoInputs.cache
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.AssemblyInfo.cs
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.sourcelink.json
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.dll
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\refint\Geno_Shared_Assets.dll
 C:\Users\Steven\Desktop\OFFICIAL_PROJECTS\Geno\Final-Geno-App\Geno-Shared-Assets\obj\Debug\net8.0\Geno_Shared_Assets.pdb

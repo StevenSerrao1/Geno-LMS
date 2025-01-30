@@ -5,6 +5,7 @@
         [Key]
         public int FinalGradeId { get; set; } // Unique Identifier for each FINALGRADE
 
+        [Range(0, 100)]
         public double FinalScore { get; set; } // Actual final score (for whole course)(combine all grades to represent this)
 
         public string? DenormalizedCourseName { get; set; } // Denormalized for vinniger querying
