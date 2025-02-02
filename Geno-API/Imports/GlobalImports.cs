@@ -9,3 +9,5 @@ global using Geno_API.Entities;
 global using Geno_API.Data;
 global using Geno_API.Entities.Users;
 global using Geno_API.Enums;
+global using Geno_API.DTO.DTORequests;
+global using Geno_API.DTO.DTOResponses;

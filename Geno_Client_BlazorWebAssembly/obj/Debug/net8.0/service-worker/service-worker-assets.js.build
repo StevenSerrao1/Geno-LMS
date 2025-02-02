@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "JyoHMinW",
+  "version": "SGNBsNan",
   "assets": [
     {
       "hash": "sha256-f3DVnAJFtDfjNz72BQWX1AQRJ8zjCIkaHYGtFqFtVDQ=",
@@ -22,11 +22,11 @@ self.assetsManifest = {
       "url": "_framework/BlazorInputFile.wasm"
     },
     {
-      "hash": "sha256-BsyK0gr5nDM9oeWLe8c+xNs21i5EjqwHUReUqVbWwDQ=",
+      "hash": "sha256-tXOxGlQjsd1HLTztv0vo4hZpt0Sv7FWTY/10zdtvoWo=",
       "url": "_framework/Geno_Client_BlazorWebAssembly.pdb"
     },
     {
-      "hash": "sha256-Cy9h3J4JnaQlvxRe4QWA47tpD2uj+oqIjvsLlw6G7rg=",
+      "hash": "sha256-pkiAMHAcHSnZ54WNo+OuoIKE8+OpYHi8RQiP+vA0Jo0=",
       "url": "_framework/Geno_Client_BlazorWebAssembly.wasm"
     },
     {
@@ -798,7 +798,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-XPHiUPJY1AkLPKzKCYHG1l98QlhQSFEQE7JpzGZWlhc=",
+      "hash": "sha256-MBNoF/rGxxc5vFe4Zn13drlOuajeOJV6XD+1kk0dmcE=",
       "url": "_framework/blazor.boot.json"
     },
     {

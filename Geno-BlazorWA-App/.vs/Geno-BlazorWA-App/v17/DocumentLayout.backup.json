@@ -3,25 +3,49 @@
   "WorkspaceRootPath": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-BlazorWA-App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\finalgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\dto\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\enrolment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\dto\\dtoresponses\\admindtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\dto\\dtorequests\\admindtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\imports\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\dto\\dtorequests\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\users\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\enrolment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\dto\\dtorequests\\selectedanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\finalgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E53F672-5026-426D-B43F-18C1E4D51973}|..\\Geno-API\\Geno_API.csproj|c:\\users\\steven\\desktop\\official_projects\\geno\\final-geno-app\\geno-api\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -45,6 +69,115 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Users\\Admin.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Users\\Admin.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Users\\Admin.cs",
+              "RelativeToolTip": "..\\Geno-API\\Entities\\Users\\Admin.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:09:13.201Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\DTO\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "..\\Geno-API\\DTO\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:39:15.194Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDTOResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTOResponses\\AdminDTOResponse.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\DTO\\DTOResponses\\AdminDTOResponse.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTOResponses\\AdminDTOResponse.cs",
+              "RelativeToolTip": "..\\Geno-API\\DTO\\DTOResponses\\AdminDTOResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T10:36:32.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTORequests\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\DTO\\DTORequests\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTORequests\\CourseDTO.cs",
+              "RelativeToolTip": "..\\Geno-API\\DTO\\DTORequests\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T10:19:32.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalImports.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Imports\\GlobalImports.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\Imports\\GlobalImports.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Imports\\GlobalImports.cs",
+              "RelativeToolTip": "..\\Geno-API\\Imports\\GlobalImports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:50:10.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminDTORequest.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTORequests\\AdminDTORequest.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\DTO\\DTORequests\\AdminDTORequest.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTORequests\\AdminDTORequest.cs",
+              "RelativeToolTip": "..\\Geno-API\\DTO\\DTORequests\\AdminDTORequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:18:29.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Users\\User.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Users\\User.cs",
+              "RelativeToolTip": "..\\Geno-API\\Entities\\Users\\User.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:09:43.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SelectedAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTORequests\\SelectedAnswer.cs",
+              "RelativeDocumentMoniker": "..\\Geno-API\\DTO\\DTORequests\\SelectedAnswer.cs",
+              "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\DTO\\DTORequests\\SelectedAnswer.cs",
+              "RelativeToolTip": "..\\Geno-API\\DTO\\DTORequests\\SelectedAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:06:54.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "FinalGrade.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\FinalGrade.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\FinalGrade.cs",
@@ -52,25 +185,23 @@
               "RelativeToolTip": "..\\Geno-API\\Entities\\FinalGrade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T08:24:08.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T08:24:08.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Controllers\\TestController.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Controllers\\TestController.cs",
               "RelativeToolTip": "..\\Geno-API\\Controllers\\TestController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwDUAAACpAQAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T05:30:53.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T05:30:53.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "20250130052820_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Migrations\\20250130052820_Initial.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Migrations\\20250130052820_Initial.cs",
@@ -82,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Grade.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Grade.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Grade.cs",
@@ -94,74 +225,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Enrolment.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Enrolment.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Enrolment.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Enrolment.cs",
               "RelativeToolTip": "..\\Geno-API\\Entities\\Enrolment.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T05:20:36.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Program.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Program.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Program.cs",
               "RelativeToolTip": "..\\Geno-API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T10:34:07.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Users\\Student.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Users\\Student.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Users\\Student.cs",
               "RelativeToolTip": "..\\Geno-API\\Entities\\Users\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T09:04:21.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Course.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Course.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Course.cs",
               "RelativeToolTip": "..\\Geno-API\\Entities\\Course.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T08:51:25.956Z"
+              "WhenOpened": "2025-01-28T08:51:25.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "..\\Geno-API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwJcBAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAJQBAAAAAAAAAAAAAJcBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T08:38:46.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T08:38:46.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Lesson.cs",
               "DocumentMoniker": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Lesson.cs",
               "RelativeDocumentMoniker": "..\\Geno-API\\Entities\\Lesson.cs",
               "ToolTip": "C:\\Users\\Steven\\Desktop\\OFFICIAL_PROJECTS\\Geno\\Final-Geno-App\\Geno-API\\Entities\\Lesson.cs",
               "RelativeToolTip": "..\\Geno-API\\Entities\\Lesson.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T05:18:52.165Z"
             }

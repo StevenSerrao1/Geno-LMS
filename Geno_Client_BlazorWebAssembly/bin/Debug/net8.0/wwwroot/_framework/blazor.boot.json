@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Geno_Client_BlazorWebAssembly",
   "resources": {
-    "hash": "sha256-d/mVK784h6YCXF1z/Wm+a6Sf1ngxSDsoUmJ3UNEIdps=",
+    "hash": "sha256-NDs8emx7dA8l1BYITSHuBgj+PufBcTJHvOYNRSpnVgI=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -213,10 +213,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "Geno_Client_BlazorWebAssembly.wasm": "sha256-Cy9h3J4JnaQlvxRe4QWA47tpD2uj+oqIjvsLlw6G7rg="
+      "Geno_Client_BlazorWebAssembly.wasm": "sha256-pkiAMHAcHSnZ54WNo+OuoIKE8+OpYHi8RQiP+vA0Jo0="
     },
     "pdb": {
-      "Geno_Client_BlazorWebAssembly.pdb": "sha256-BsyK0gr5nDM9oeWLe8c+xNs21i5EjqwHUReUqVbWwDQ="
+      "Geno_Client_BlazorWebAssembly.pdb": "sha256-tXOxGlQjsd1HLTztv0vo4hZpt0Sv7FWTY/10zdtvoWo="
     }
   },
   "cacheBootResources": true,

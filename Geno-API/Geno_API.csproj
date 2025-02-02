@@ -35,9 +35,7 @@
 
   <ItemGroup>
     <Folder Include="Backend_Tests\xUnit\" />
-    <Folder Include="DTO\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Mappings\" />
     <Folder Include="Configurations\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
