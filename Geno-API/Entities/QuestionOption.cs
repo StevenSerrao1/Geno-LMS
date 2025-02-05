@@ -8,6 +8,8 @@
         [Required]
         public QuestionLetterEnum QuestionOptionLetter { get; set; } // Char that question option signifies
 
+        public string? AnswerText { get; set; } // The actual answer text (e.g., "5", "8", "9", "11")
+
         [Required]
         public int QuestionId { get; set; } // Foreign Key to Question
 

@@ -14,8 +14,10 @@
         [MaxLength(1200)]
         public string? QuizDescription { get; set; } // Description of Quiz content if applicable
 
+        [Range(1, 100)]
         public uint PassingScore { get; set; } // Indicates the required score to pass the quiz (50)
 
+        [Range(1, 100)]
         public uint MaxScore { get; set; } // Indicates the Maximum score achievable for a quiz (100)
 
         public int? CreatedByAdminId { get; set; } // Foreign Key to Admin (allowing Admin access to a Quiz)

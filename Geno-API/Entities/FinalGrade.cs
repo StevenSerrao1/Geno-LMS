@@ -8,8 +8,6 @@
         [Range(0, 100)]
         public double FinalScore { get; set; } // Actual final score (for whole course)(combine all grades to represent this)
 
-        public string? DenormalizedCourseName { get; set; } // Denormalized for vinniger querying
-
         [Required]
         public int StudentId { get; set; } // Foreign key to Student
 

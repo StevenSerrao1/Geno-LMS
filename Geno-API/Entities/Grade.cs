@@ -3,7 +3,7 @@
     public class Grade
     {
         [Key]
-        public int GradeId { get; set; } // Unique Identifier for each gradeS
+        public int GradeId { get; set; } // Unique Identifier for each grade
 
         public double GradeScore { get; set; } // Actual score for the grade (will be combined to make finalgrade)
 

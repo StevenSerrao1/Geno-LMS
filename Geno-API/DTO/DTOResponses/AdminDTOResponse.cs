@@ -17,6 +17,7 @@
         public List<string>? CreatedQuizNames { get; set; }
         public List<string>? UpdatedQuizNames { get; set; }
 
-        public List<string>? StudentNames { get; set; } = new();
+        public List<string>? StudentNames { get; set; }
+        public List<string>? StudentEmails { get; set; }
     }
 }

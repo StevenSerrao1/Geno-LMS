@@ -7,6 +7,7 @@
     <RootNamespace>Geno_API</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\Geno-BlazorWA-App</DockerfileContext>
+    <UserSecretsId>6ab3df26-20e0-4cb6-a645-9300117a8b91</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

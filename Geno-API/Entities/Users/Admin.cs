@@ -30,7 +30,7 @@
             this.UpdatedLessons = new HashSet<Lesson>();
             this.CreatedQuizzes = new HashSet<Quiz>();
             this.UpdatedQuizzes = new HashSet<Quiz>();
-
+            this.DateJoined = DateTime.UtcNow;
             this.Students = new HashSet<Student>();
         }
     }
